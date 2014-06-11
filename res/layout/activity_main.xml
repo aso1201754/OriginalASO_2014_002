@@ -30,7 +30,7 @@
             android:text="一言を登録" />
 
         <EditText
-            android:id="@+id/editText1"
+            android:id="@+id/edtMsg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
@@ -42,20 +42,20 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btnMAINTE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="メンテ" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnENTRY"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="登録" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnCHECK"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="ひとことチェック" />
