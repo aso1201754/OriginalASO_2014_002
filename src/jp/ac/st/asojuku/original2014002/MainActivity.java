@@ -68,6 +68,14 @@ public class MainActivity extends Activity implements View.OnClickListener{
 				break;
 			case R.id.btnMAINTE:
 				intent = new Intent(MainActivity.this, MainActivity.class);
+
+				startActivity(intent);
+				break;
+			case R.id.btnCHECK:
+				String strHitokoto = helper.selectRandomHitokoto(sdb);
+				intent = new Intent(MainActivity.this, HitokotoActivity.class);
+				intent.putExtra("hitokoto", strHitokoto);
+
 				startActivity(intent);
 				break;
 		}
