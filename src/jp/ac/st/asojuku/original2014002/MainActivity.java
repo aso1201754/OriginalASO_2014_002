@@ -67,7 +67,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 				etv.setText("");
 				break;
 			case R.id.btnMAINTE:
-				intent = new Intent(MainActivity.this, MainActivity.class);
+				intent = new Intent(MainActivity.this, MaintenanseActivity.class);
 
 				startActivity(intent);
 				break;
